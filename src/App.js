@@ -12,6 +12,8 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Weather Application</h1>
+      <p>Check your city Weather</p>
       <SearchBar onSearch={handleSearch} />
       <Weather city={city} />
     </div>

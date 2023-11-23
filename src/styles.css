@@ -10,6 +10,17 @@ body {
   font-family: sans-serif;
 }
 
+.App > h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.App > p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin: 0px;
+}
+
 .search-bar {
   margin: 20px;
   display: flex;
